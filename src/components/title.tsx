@@ -9,7 +9,7 @@ export default function Title(props: titleProps) {
     <>
       <p
         style={{ padding: props.padding }}
-        className="font-bold text-dark  text-2xl "
+        className="font-bold text-dark  text-xl "
       >
         {props.text}
       </p>

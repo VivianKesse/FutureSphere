@@ -14,7 +14,7 @@ import Footer from "../components/footer";
 export default function Home() {
   return (
     <>
-      <header className="mb-24">
+      <header className="">
         <Header />
       </header>
       <main className="text-center">

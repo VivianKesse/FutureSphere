@@ -11,16 +11,16 @@ export default function Footer() {
             className="w-40 mb-2"
           />
           <div className="flex items-center  gap-4 text-background">
-            <a>
+            <a href="/about">
               <span>About</span>
             </a>
-            <a>
+            <a href="/careers">
               <span>Careers</span>
             </a>
-            <a>
+            <a href="/blogs">
               <span>Blogs</span>
             </a>
-            <a>
+            <a href="/pricing">
               <span>Pricing</span>
             </a>
           </div>

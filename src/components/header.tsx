@@ -15,16 +15,18 @@ export default function Header() {
 
   return (
     <>
-      <div className="flex justify-center ">
+      <div className="flex justify-center my-10 z-10">
         <div className="shadow-md w-[95%]  bg-dark  rounded-full fixed  top-8 ">
           <div className="flex items-center justify-between  bg-white  py-2 md:px-10 px-2">
             <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
               <span>
-                <img
-                  className="w-28"
-                  src="./assets/logoFuture.svg"
-                  alt="LogotipoFutureSphere"
-                />
+                <a href="/">
+                  <img
+                    className="w-28"
+                    src="./assets/logoFuture.svg"
+                    alt="LogotipoFutureSphere"
+                  />
+                </a>
               </span>
             </div>
             <div
